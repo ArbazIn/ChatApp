@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chat_b"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_main_chat" />
+
+        <Global.CEditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/account_logo"
+            android:singleLine="true"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/orange"
+            android:textStyle="bold"></Global.CEditText>
+
+
+        <Global.CEditText
+            android:id="@+id/ed_database"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/account_group"
+            android:singleLine="true"
+            android:textColor="@color/orange"
+
+            android:textColorHint="@color/orange"
+            android:textStyle="bold">
+        </Global.CEditText>
+
+
+        <Button
+            android:id="@+id/btn_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:singleLine="true"
+            android:text="start chatting"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_20sdp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

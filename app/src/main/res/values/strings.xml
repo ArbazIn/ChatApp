@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="internet_error">Connection Error</string>
+    <string name="title_activity_message">Need To Connect Mas Server</string>
+</resources>
